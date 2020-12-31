@@ -1,20 +1,30 @@
 {
   "name": "recursion_project_solution",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai-spies": "^1.0.0"
+  },
+  "devDependencies": {
     "chai": "^4.2.0",
-    "chai-spies": "^1.0.0",
     "mocha": "^6.2.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliaFong/recursion_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JuliaFong/recursion_project/issues"
+  },
+  "homepage": "https://github.com/JuliaFong/recursion_project#readme",
+  "description": ""
 }
